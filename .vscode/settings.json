@@ -1,0 +1,49 @@
+{
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "vetur.format.defaultFormatter.css": "none",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatter.less": "none",
+  "vetur.format.defaultFormatter.postcss": "none",
+  // "vetur.format.defaultFormatter.scss":"none",
+  "vetur.format.defaultFormatter.stylus": "none",
+  "vetur.format.defaultFormatter.ts": "none",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "auto"
+    }
+  },
+  // 根据文件后缀名定义vue文件类型
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "eslint.validate": [
+    // 开启对.vue文件中错误的检查
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": true,
+  "editor.renderControlCharacters": true,
+  "editor.minimap.enabled": true,
+  "breadcrumbs.enabled": true,
+  "editor.renderWhitespace": "all",
+"eslint.lintTask.enable": true,
+"[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+},
+"[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+},
+"[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+}
+}
